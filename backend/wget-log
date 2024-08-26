@@ -1,0 +1,1 @@
+mongodb://zuum_dfm_ai:qlA7cbTa6PdmemQz@zuum-api-prod-shard-00-00.vbunq.gcp.mongodb.net:27017,zuum-api-prod-shard-00-01.vbunq.gcp.mongodb.net:27017,zuum-api-prod-shard-00-02.vbunq.gcp.mongodb.net:27017/zuum_api_prod?authSource=admin: Unsupported scheme ‘mongodb’.

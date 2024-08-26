@@ -1,0 +1,1944 @@
+{
+    "data": {
+        "_id": "66a92ed2d12a44000809724c",
+        "esExportSuccess": true,
+        "pickUps": [
+            {
+                "_id": "66a92ed1d12a44000809723a",
+                "stopType": "pickup",
+                "references": [],
+                "notes": [
+                    "OID: 2014209734"
+                ],
+                "privateNotes": [],
+                "ediPrivateNotes": [
+                    "Stop Reason: Load; Weight: 6359; Weight Unit Code: L; Units Shipped: 42; Units Shipped UOM: PC; Volume: 1750; Volume Unit Qualifier: E; Contact: SD - HESSAIRE APPOINTMENTS - Telephone: 9999999999"
+                ],
+                "status": "Pick Up Complete",
+                "prevStatus": "At Pick Up",
+                "adminStatus": "Pick Up Complete",
+                "dateAppStatus": "Confirmed",
+                "dropTrailer": false,
+                "pastDueDateEmailSent": false,
+                "order": 1,
+                "weight": 6359,
+                "type": "Ship Not Later Than Date",
+                "startDate": "2024-08-01T18:00:00.000Z",
+                "endDate": "2024-08-01T18:00:00.000Z",
+                "ediLocationId": "875326CA001",
+                "timeZoneId": "America/Los_Angeles",
+                "location": {
+                    "_id": "66a92ed1d12a44000809723b",
+                    "name": "HESSAIRE PRODUCTS, INC.-STOCKTON",
+                    "city": "STOCKTON",
+                    "stateAbbr": "CA",
+                    "state": "California",
+                    "zipCode": "95215",
+                    "country": "US",
+                    "houseNo": "2991",
+                    "streetAddress": "NAVONE RD.",
+                    "geoLocation": {
+                        "lat": 37.9981065,
+                        "long": -121.2147425
+                    },
+                    "fullAddress": "2991 NAVONE RD., STOCKTON, California, 95215"
+                },
+                "stop": {
+                    "_id": "664b5b7e0b01c60008a55564",
+                    "sharedNotes": [
+                        "OID: 2014209734"
+                    ],
+                    "privateNotes": [],
+                    "visible": true,
+                    "tenantId": "ZUUM",
+                    "isBillable": false,
+                    "isDeleted": false,
+                    "deletedAt": null,
+                    "users": [],
+                    "deletedUsers": [],
+                    "timeZoneId": "America/Los_Angeles",
+                    "location": {
+                        "_id": "664b5b7e0b01c60008a55565",
+                        "name": "HESSAIRE PRODUCTS, INC.-STOCKTON",
+                        "city": "STOCKTON",
+                        "stateAbbr": "CA",
+                        "state": "California",
+                        "zipCode": "95215",
+                        "country": "US",
+                        "houseNo": "2991",
+                        "streetAddress": "NAVONE RD.",
+                        "geoLocation": {
+                            "lat": 37.9981065,
+                            "long": -121.2147425
+                        },
+                        "fullAddress": "2991 NAVONE RD., STOCKTON, California, 95215"
+                    },
+                    "privateContacts": [],
+                    "createdAt": "2024-05-20T14:17:34.666Z",
+                    "updatedAt": "2024-05-20T14:17:34.666Z",
+                    "__v": 0
+                },
+                "stopOverride": {
+                    "sharedNotes": [
+                        "OID: 2014209734"
+                    ],
+                    "privateNotes": [],
+                    "users": [],
+                    "deletedUsers": [],
+                    "__v": 0
+                },
+                "distances": [
+                    {
+                        "unit": "miles",
+                        "source": "google-api",
+                        "value": "706"
+                    }
+                ],
+                "createdAt": "2024-07-30T18:20:01.402Z",
+                "updatedAt": "2024-08-01T18:56:02.502Z",
+                "__v": 0,
+                "appRequestedDate": "2024-07-30T21:17:27.876Z",
+                "ediReasonCode": "Normal Status",
+                "ediStatusCode": "Carrier Departed Pick-up Location with Shipment",
+                "completedDate": "2024-08-01T18:56:02.501Z"
+            }
+        ],
+        "dropOffs": [
+            {
+                "_id": "66a92ed2d12a44000809723e",
+                "stopType": "dropoff",
+                "references": [],
+                "notes": [
+                    "OID: 2014209734"
+                ],
+                "privateNotes": [],
+                "ediPrivateNotes": [
+                    "Notes: Remarks: Note: IFC DEST, Note: Load REQUIRES electronic paperwork. Text 7702129105 or use Vector App at pickup.",
+                    "Stop Reason: Complete Unload; Weight: 6359; Weight Unit Code: L; Units Shipped: 42; Units Shipped UOM: PC; Volume: 1750; Volume Unit Qualifier: E; Contact: RE - JASMINE XXXXX - Telephone: 623-293-9100 x 428"
+                ],
+                "status": "Not Started",
+                "prevStatus": "Not Started",
+                "adminStatus": "Not Started",
+                "dateAppStatus": "Confirmed",
+                "dropTrailer": false,
+                "pastDueDateEmailSent": false,
+                "order": 2,
+                "weight": 6359,
+                "type": "Deliver No Later Than Date",
+                "startDate": "2024-08-03T03:30:00.000Z",
+                "endDate": "2024-08-03T03:30:00.000Z",
+                "ediLocationId": "5643",
+                "timeZoneId": "America/Phoenix",
+                "location": {
+                    "_id": "66a92ed2d12a44000809723f",
+                    "name": "Home Depot RDC #5643",
+                    "city": "TOLLESON",
+                    "stateAbbr": "AZ",
+                    "state": "Arizona",
+                    "zipCode": "85353",
+                    "country": "US",
+                    "houseNo": "9081",
+                    "streetAddress": "WEST WASHINGTON STREET",
+                    "geoLocation": {
+                        "lat": 33.4452108,
+                        "long": -112.2543496
+                    },
+                    "fullAddress": "9081 WEST WASHINGTON STREET, TOLLESON, Arizona, 85353"
+                },
+                "stop": {
+                    "_id": "64c22b0c9d77fe0008a26f48",
+                    "sharedNotes": [
+                        "OID: 2014209734"
+                    ],
+                    "privateNotes": [],
+                    "visible": true,
+                    "tenantId": "ZUUM",
+                    "isBillable": false,
+                    "isDeleted": false,
+                    "deletedAt": null,
+                    "users": [],
+                    "deletedUsers": [],
+                    "timeZoneId": "America/Phoenix",
+                    "location": {
+                        "_id": "64c22b0c9d77fe0008a26f49",
+                        "name": "Home Depot RDC #5643",
+                        "city": "TOLLESON",
+                        "stateAbbr": "AZ",
+                        "state": "Arizona",
+                        "zipCode": "85353",
+                        "country": "US",
+                        "houseNo": "9081",
+                        "streetAddress": "WEST WASHINGTON STREET",
+                        "geoLocation": {
+                            "lat": 33.4452108,
+                            "long": -112.2543496
+                        },
+                        "fullAddress": "9081 WEST WASHINGTON STREET, TOLLESON, Arizona, 85353"
+                    },
+                    "privateContacts": [],
+                    "createdAt": "2023-07-27T08:30:04.047Z",
+                    "updatedAt": "2023-07-27T08:30:04.047Z",
+                    "__v": 0,
+                    "ediPrivateNotes": [
+                        "Notes: Remarks: Note: IFC DEST, Note: Load REQUIRES electronic paperwork. Text 7702129105 or use Vector App at pickup.",
+                        "Stop Reason: Complete Unload; Weight: 6359; Weight Unit Code: L; Units Shipped: 42; Units Shipped UOM: PC; Volume: 1750; Volume Unit Qualifier: E; Contact: RE - JASMINE XXXXX - Telephone: 623-293-9100 x 428"
+                    ]
+                },
+                "stopOverride": {
+                    "ediPrivateNotes": [
+                        "Notes: Remarks: Note: IFC DEST, Note: Load REQUIRES electronic paperwork. Text 7702129105 or use Vector App at pickup.",
+                        "Stop Reason: Complete Unload; Weight: 6359; Weight Unit Code: L; Units Shipped: 42; Units Shipped UOM: PC; Volume: 1750; Volume Unit Qualifier: E; Contact: RE - JASMINE XXXXX - Telephone: 623-293-9100 x 428"
+                    ],
+                    "sharedNotes": [
+                        "OID: 2014209734"
+                    ]
+                },
+                "distances": [],
+                "createdAt": "2024-07-30T18:20:02.211Z",
+                "updatedAt": "2024-07-30T21:24:41.061Z",
+                "__v": 0
+            }
+        ],
+        "accessorialType": [
+            "Drop trailer at receiver per day"
+        ],
+        "dropOffAccessorialTypes": [],
+        "pickUpAccessorialTypes": [],
+        "truckType": [
+            "Truck, Van"
+        ],
+        "loadStatus": "In Transit",
+        "status": "In-Transit",
+        "viewedByUsers": [],
+        "invisibleToUsers": [],
+        "visibleOnlyToCarrierIds": [],
+        "offers": [
+            {
+                "_id": "66aa3e963e49630008f1f81e",
+                "isDeleted": false,
+                "shipment": "66a92ed2d12a44000809724c",
+                "createdForUser": {
+                    "_id": "66671b4540c98d0008f37c67",
+                    "type": "fleet_manager",
+                    "email": "dispatch.black@gmail.com",
+                    "lastName": "Singh",
+                    "firstName": "Varinderpal",
+                    "phoneNumber": "12097402885",
+                    "company": {
+                        "_id": "66671b4540c98d0008f37c68",
+                        "type": "Carrier",
+                        "name": "Black Hawk Inc",
+                        "phone": "12097402885",
+                        "mcNumber": "1326526",
+                        "tenantId": "ZUUM",
+                        "email": "",
+                        "dotNumber": "03744119"
+                    },
+                    "officePhoneNumber": "12099232954"
+                },
+                "price": "$1,300.00",
+                "status": "Accepted by broker for carrier",
+                "createdByUser": {
+                    "_id": "63bc4f1c931e6b0008db10bf",
+                    "type": "broker",
+                    "company": {
+                        "_id": "59a5d578bbb474526f7b1927",
+                        "name": "Zuum Transportation Inc.",
+                        "type": "Broker",
+                        "email": "operations@zuumapp.com",
+                        "phone": "19096677478",
+                        "tenantId": "ZUUM",
+                        "accessToMarketplace": [
+                            "SHWIN",
+                            "THGRLLGLCMPNY",
+                            "PTTSNSGNGRP",
+                            "Q-TST"
+                        ],
+                        "mcNumber": "646963"
+                    },
+                    "firstName": "Ivory",
+                    "lastName": "Viray",
+                    "email": "iviray@zuumapp.com",
+                    "phoneNumber": "19492810440"
+                },
+                "createdAt": "2024-07-31T13:39:34.040Z",
+                "updatedAt": "2024-07-31T13:39:34.040Z",
+                "__v": 0
+            }
+        ],
+        "jobs": [
+            {
+                "_id": "66aa3e963e49630008f1f82d",
+                "status": "Pick Up Complete",
+                "truckStatus": "Pick Up Complete",
+                "isOnMacroPoint": true,
+                "thirdPartyTracking": [],
+                "trackedOnMobile": false,
+                "pickUps": [
+                    "66a92ed1d12a44000809723a"
+                ],
+                "dropOffs": [
+                    "66a92ed2d12a44000809723e"
+                ],
+                "isBillSent": false,
+                "shipment": "66a92ed2d12a44000809724c",
+                "offer": "66aa3e963e49630008f1f81e",
+                "carrierId": {
+                    "_id": "66671b4540c98d0008f37c68",
+                    "type": "Carrier",
+                    "dwollaOnboarded": false,
+                    "carrierTypes": [
+                        "FTL"
+                    ],
+                    "enableTrackingEmails": true,
+                    "hasSignedPacket": true,
+                    "isDeleted": false,
+                    "hasBankAccount": false,
+                    "tenantType": "Child",
+                    "assets": [],
+                    "excludeFromEmails": [],
+                    "accessToMarketplace": [],
+                    "invoiceSettings": {
+                        "sendCopy": true,
+                        "sendCopyToAddresses": false,
+                        "emails": []
+                    },
+                    "forbidAccessToMarketplace": [],
+                    "freightTerms": "collect",
+                    "preferredLanes": [],
+                    "dedicatedLanes": [],
+                    "name": "Black Hawk Inc",
+                    "establishedDate": "2021-11-02T22:00:00.000Z",
+                    "phone": "12097402885",
+                    "mcNumber": "1326526",
+                    "addresses": [
+                        {
+                            "country": "US",
+                            "state": "California",
+                            "address1": "Comet Lane",
+                            "zipCode": "95330",
+                            "city": "Lathrop",
+                            "type": "Main",
+                            "unit": "1081"
+                        }
+                    ],
+                    "tenantId": "ZUUM",
+                    "accessorialFees": [],
+                    "contactEmails": [],
+                    "insurances": [
+                        {
+                            "type": "General",
+                            "company": "Great West Casualty Co.",
+                            "policyNumber": "GRT10729A",
+                            "amount": 100000000,
+                            "effectiveDate": "2023-11-01T04:00:00.000Z",
+                            "endDate": "2024-11-01T04:00:00.000Z"
+                        },
+                        {
+                            "type": "Auto",
+                            "company": "Great West Casualty Co.",
+                            "policyNumber": "GRT10729A",
+                            "amount": 100000000,
+                            "effectiveDate": "2023-11-01T04:00:00.000Z",
+                            "endDate": "2024-11-01T04:00:00.000Z"
+                        },
+                        {
+                            "type": "Cargo",
+                            "company": "Great West Casualty Co.",
+                            "policyNumber": "GRT10729A",
+                            "amount": 10000000,
+                            "effectiveDate": "2023-11-01T04:00:00.000Z",
+                            "endDate": "2024-11-01T04:00:00.000Z"
+                        },
+                        {
+                            "type": "Cargo",
+                            "company": "Great West Casualty Co.",
+                            "policyNumber": "GRT10729A",
+                            "amount": 10000000,
+                            "effectiveDate": "2023-11-01T04:00:00.000Z",
+                            "endDate": "2024-11-01T04:00:00.000Z"
+                        },
+                        {
+                            "type": "Cargo",
+                            "company": "Great West Casualty Co.",
+                            "policyNumber": "GRT10729A",
+                            "amount": 10000000,
+                            "effectiveDate": "2023-11-01T04:00:00.000Z",
+                            "endDate": "2024-11-01T04:00:00.000Z"
+                        }
+                    ],
+                    "additionalLicensing": [],
+                    "emailNotifications": [
+                        {
+                            "notes": [],
+                            "type": "onboarding_carrier",
+                            "date": "2024-06-10T16:25:01.062Z"
+                        }
+                    ],
+                    "email": "",
+                    "owningCompany": "59a5d578bbb474526f7b1927",
+                    "mcNumberCheck": {
+                        "date": "2024-06-10T16:33:59.618Z",
+                        "status": "Approved",
+                        "operator": "5c65d65add44b085085f2aec"
+                    },
+                    "okToLoad": {
+                        "status": "Active",
+                        "updatedAt": "2024-06-10T16:34:02.157Z",
+                        "requestInfo": {
+                            "createdAt": "2024-06-10T16:11:30.410Z",
+                            "status": "Rejected",
+                            "type": "OK To Load",
+                            "operator": "63bc4f1c931e6b0008db10bf",
+                            "operatorComment": "yes",
+                            "manager": "5c65d65add44b085085f2aec",
+                            "repliedAt": "2024-06-10T16:33:55.873Z"
+                        }
+                    },
+                    "createdAt": "2024-06-10T15:27:01.462Z",
+                    "updatedAt": "2024-06-13T20:55:14.370Z",
+                    "carrierPerTenantId": 49752,
+                    "__v": 6,
+                    "onboarding": {
+                        "status": "Completed",
+                        "date": "2024-06-11T03:31:42.503Z",
+                        "source": "Mobile Onboarding",
+                        "termsAccepted": true
+                    },
+                    "admin": "66671b4540c98d0008f37c67",
+                    "dotNumber": "03744119",
+                    "businessName": "Black hawk Inc",
+                    "businessType": "S Corp",
+                    "carrierName": "Varinder pal Singh",
+                    "ein": "87-0949122",
+                    "taxInfoAddress": "2040 Towne Center DR Apt 4201",
+                    "taxInfoAddressDetail": "lathrose , CA 95330",
+                    "accountNos": "",
+                    "businessTypeDetail": "",
+                    "exemptFactaCode": "",
+                    "exemptPayeeCode": "",
+                    "ssn": ""
+                },
+                "fleetManager": {
+                    "_id": "66671b4540c98d0008f37c67",
+                    "departments": [],
+                    "roles": [
+                        "fleet_admin"
+                    ],
+                    "type": "fleet_manager",
+                    "isActive": true,
+                    "isApproved": true,
+                    "isDeleted": false,
+                    "paidUser": true,
+                    "emailNotificationsEnabled": true,
+                    "activeExternalAccounting": "QuickBooks",
+                    "disabledNotifications": [],
+                    "selectedLanguage": "en-US,en;q=0.9",
+                    "tutorials": [
+                        "Welcome Dialog",
+                        "Dont Jobs Tour"
+                    ],
+                    "email": "dispatch.black@gmail.com",
+                    "lastName": "Singh",
+                    "firstName": "Varinderpal",
+                    "phoneNumber": "12097402885",
+                    "addresses": [],
+                    "emailNotifications": [],
+                    "notifications": [],
+                    "emergencyContacts": [],
+                    "company": {
+                        "_id": "66671b4540c98d0008f37c68",
+                        "type": "Carrier",
+                        "dwollaOnboarded": false,
+                        "carrierTypes": [
+                            "FTL"
+                        ],
+                        "enableTrackingEmails": true,
+                        "hasSignedPacket": true,
+                        "isDeleted": false,
+                        "hasBankAccount": false,
+                        "tenantType": "Child",
+                        "assets": [],
+                        "excludeFromEmails": [],
+                        "accessToMarketplace": [],
+                        "invoiceSettings": {
+                            "sendCopy": true,
+                            "sendCopyToAddresses": false,
+                            "emails": []
+                        },
+                        "forbidAccessToMarketplace": [],
+                        "freightTerms": "collect",
+                        "preferredLanes": [],
+                        "dedicatedLanes": [],
+                        "name": "Black Hawk Inc",
+                        "establishedDate": "2021-11-02T22:00:00.000Z",
+                        "phone": "12097402885",
+                        "mcNumber": "1326526",
+                        "addresses": [
+                            {
+                                "country": "US",
+                                "state": "California",
+                                "address1": "Comet Lane",
+                                "zipCode": "95330",
+                                "city": "Lathrop",
+                                "type": "Main",
+                                "unit": "1081"
+                            }
+                        ],
+                        "tenantId": "ZUUM",
+                        "accessorialFees": [],
+                        "contactEmails": [],
+                        "insurances": [
+                            {
+                                "type": "General",
+                                "company": "Great West Casualty Co.",
+                                "policyNumber": "GRT10729A",
+                                "amount": 100000000,
+                                "effectiveDate": "2023-11-01T04:00:00.000Z",
+                                "endDate": "2024-11-01T04:00:00.000Z"
+                            },
+                            {
+                                "type": "Auto",
+                                "company": "Great West Casualty Co.",
+                                "policyNumber": "GRT10729A",
+                                "amount": 100000000,
+                                "effectiveDate": "2023-11-01T04:00:00.000Z",
+                                "endDate": "2024-11-01T04:00:00.000Z"
+                            },
+                            {
+                                "type": "Cargo",
+                                "company": "Great West Casualty Co.",
+                                "policyNumber": "GRT10729A",
+                                "amount": 10000000,
+                                "effectiveDate": "2023-11-01T04:00:00.000Z",
+                                "endDate": "2024-11-01T04:00:00.000Z"
+                            },
+                            {
+                                "type": "Cargo",
+                                "company": "Great West Casualty Co.",
+                                "policyNumber": "GRT10729A",
+                                "amount": 10000000,
+                                "effectiveDate": "2023-11-01T04:00:00.000Z",
+                                "endDate": "2024-11-01T04:00:00.000Z"
+                            },
+                            {
+                                "type": "Cargo",
+                                "company": "Great West Casualty Co.",
+                                "policyNumber": "GRT10729A",
+                                "amount": 10000000,
+                                "effectiveDate": "2023-11-01T04:00:00.000Z",
+                                "endDate": "2024-11-01T04:00:00.000Z"
+                            }
+                        ],
+                        "additionalLicensing": [],
+                        "emailNotifications": [
+                            {
+                                "notes": [],
+                                "type": "onboarding_carrier",
+                                "date": "2024-06-10T16:25:01.062Z"
+                            }
+                        ],
+                        "email": "",
+                        "owningCompany": "59a5d578bbb474526f7b1927",
+                        "mcNumberCheck": {
+                            "date": "2024-06-10T16:33:59.618Z",
+                            "status": "Approved",
+                            "operator": "5c65d65add44b085085f2aec"
+                        },
+                        "okToLoad": {
+                            "status": "Active",
+                            "updatedAt": "2024-06-10T16:34:02.157Z",
+                            "requestInfo": {
+                                "createdAt": "2024-06-10T16:11:30.410Z",
+                                "status": "Rejected",
+                                "type": "OK To Load",
+                                "operator": "63bc4f1c931e6b0008db10bf",
+                                "operatorComment": "yes",
+                                "manager": "5c65d65add44b085085f2aec",
+                                "repliedAt": "2024-06-10T16:33:55.873Z"
+                            }
+                        },
+                        "createdAt": "2024-06-10T15:27:01.462Z",
+                        "updatedAt": "2024-06-13T20:55:14.370Z",
+                        "carrierPerTenantId": 49752,
+                        "__v": 6,
+                        "onboarding": {
+                            "status": "Completed",
+                            "date": "2024-06-11T03:31:42.503Z",
+                            "source": "Mobile Onboarding",
+                            "termsAccepted": true
+                        },
+                        "admin": "66671b4540c98d0008f37c67",
+                        "dotNumber": "03744119",
+                        "businessName": "Black hawk Inc",
+                        "businessType": "S Corp",
+                        "carrierName": "Varinder pal Singh",
+                        "ein": "87-0949122",
+                        "taxInfoAddress": "2040 Towne Center DR Apt 4201",
+                        "taxInfoAddressDetail": "lathrose , CA 95330",
+                        "accountNos": "",
+                        "businessTypeDetail": "",
+                        "exemptFactaCode": "",
+                        "exemptPayeeCode": "",
+                        "ssn": ""
+                    },
+                    "selfOnboarded": true,
+                    "hasPassword": true,
+                    "createdAt": "2024-06-10T15:27:01.600Z",
+                    "updatedAt": "2024-08-01T18:43:01.330Z",
+                    "__v": 2,
+                    "lastLogin": "2024-07-26T14:11:32.020Z",
+                    "loggedInto": "web",
+                    "eSignature": {
+                        "_id": "66671c4240c98d0008f3b5fd",
+                        "url": "https://storage.googleapis.com/zuumapp/checklists/19d2ee619180d46ef4b41b5611f0a2c3_r.png",
+                        "createdAt": "2024-06-10T15:31:14.882Z",
+                        "updatedAt": "2024-06-10T15:31:14.882Z"
+                    },
+                    "androidChannelId": "",
+                    "channelId": "1550be2d-dd91-4ea2-9c18-5f5eb68c4807",
+                    "chatUser": "6668897ff9e82d000855a0c0",
+                    "passwordUpdatedAt": "2024-06-11T17:29:48.831Z",
+                    "driverLicense": {
+                        "_id": "6668898fd240d40008c8f1a8",
+                        "country": "",
+                        "state": "",
+                        "number": "",
+                        "photo": null
+                    },
+                    "officePhoneNumber": "12099232954",
+                    "phoneNumberExt": "",
+                    "geoLocation": {
+                        "lat": 37.81703597019344,
+                        "city": "Lathrop",
+                        "long": -121.3136289712335,
+                        "state": "CA"
+                    }
+                },
+                "contact": {
+                    "_id": "66671b4540c98d0008f37c67",
+                    "type": "fleet_manager",
+                    "email": "dispatch.black@gmail.com",
+                    "lastName": "Singh",
+                    "firstName": "Varinderpal",
+                    "phoneNumber": "12097402885",
+                    "company": "66671b4540c98d0008f37c68",
+                    "officePhoneNumber": "12099232954"
+                },
+                "driver": {
+                    "_id": "66abd1465bf625000851b138",
+                    "type": "driver",
+                    "isActive": true,
+                    "isApproved": true,
+                    "company": "66671b4540c98d0008f37c68",
+                    "firstName": "J",
+                    "lastName": "driver",
+                    "phoneNumber": "12604250633",
+                    "email": "",
+                    "geoLocation": {
+                        "lat": 35.0100202,
+                        "long": -117.63587318,
+                        "city": "Boron",
+                        "state": "CA",
+                        "distanceToNextStop": 325.83,
+                        "nextStopId": "66a92ed2d12a44000809723e",
+                        "date": "2024-08-01T23:53:45.196Z",
+                        "isAtFinalDropOff": false
+                    }
+                },
+                "secondDriver": null,
+                "managedByUser": {
+                    "_id": "63bc4f1c931e6b0008db10bf",
+                    "type": "broker",
+                    "company": {
+                        "_id": "59a5d578bbb474526f7b1927",
+                        "name": "Zuum Transportation Inc."
+                    },
+                    "firstName": "Ivory",
+                    "lastName": "Viray",
+                    "email": "iviray@zuumapp.com",
+                    "phoneNumber": "19492810440"
+                },
+                "price": {
+                    "accessorialsFees": "$100.00",
+                    "fleetManager": "$1,300.00",
+                    "shipper": "$1,265.38"
+                },
+                "distances": [
+                    {
+                        "unit": "miles",
+                        "source": "google-api",
+                        "value": "706"
+                    }
+                ],
+                "createdByBroker": "63bc4f1c931e6b0008db10bf",
+                "trailerNumber": " m26",
+                "createdAt": "2024-07-31T13:39:34.222Z",
+                "updatedAt": "2024-08-01T23:53:45.555Z",
+                "__v": 0,
+                "order": 1,
+                "truckNumber": "0211",
+                "dispatchedDate": "2024-08-01T18:12:35.893Z",
+                "nextStopId": "66a92ed2d12a44000809723e",
+                "inTransitDate": "2024-08-01T18:56:53.000Z"
+            }
+        ],
+        "documents": [],
+        "type": "Quote through App",
+        "loadAppointmentTypeStatus": "Completed",
+        "pingTime": 15,
+        "createdOnPlatform": "external",
+        "freightTerms": "collect",
+        "enableTrackingEmails": false,
+        "isOnMacroPoint": false,
+        "trailers": [],
+        "trucks": [],
+        "isInvoiceSent": false,
+        "skipSendingInvoice": false,
+        "stopContacts": [],
+        "customShipmentId": {
+            "_id": "66a92d2ed12a440008097115",
+            "status": "add",
+            "__discriminator": "HomeDepot204",
+            "B2": {
+                "B202": "ZUUM",
+                "B204": "227291896",
+                "B206": "CC",
+                "B207": "L"
+            },
+            "B2A": {
+                "B2A01": "00",
+                "B2A02": "LT"
+            },
+            "L11": [
+                {
+                    "_id": "66a92d2ed12a440008097116",
+                    "L1101": "227291896",
+                    "L1102": "IL"
+                }
+            ],
+            "AT5": [
+                {
+                    "_id": "66a92d2ed12a440008097117"
+                }
+            ],
+            "LH6": [
+                {
+                    "_id": "66a92d2ed12a440008097118"
+                }
+            ],
+            "NTE": [
+                {
+                    "_id": "66a92d2ed12a440008097119",
+                    "NTE01": "CBH",
+                    "NTE02": "USD"
+                },
+                {
+                    "_id": "66a92d2ed12a44000809711a",
+                    "NTE01": "RPT",
+                    "NTE02": "Rate Code CLUSTER     Line Haul 1265.38"
+                }
+            ],
+            "N1Loop1": [
+                {
+                    "_id": "66a92d2ed12a44000809711b",
+                    "N1": {
+                        "N101": "BT",
+                        "N102": "The Home Depot",
+                        "N103": "93",
+                        "N104": "1001"
+                    },
+                    "N3": [
+                        {
+                            "_id": "66a92d2ed12a44000809711c",
+                            "N301": "2455  WEST PACES",
+                            "N302": "ROAD"
+                        }
+                    ],
+                    "N4": {
+                        "N401": "ATLANTA",
+                        "N402": "GA",
+                        "N403": "303060000",
+                        "N404": "USA"
+                    },
+                    "G61": [
+                        {
+                            "_id": "66a92d2ed12a44000809711d"
+                        }
+                    ]
+                }
+            ],
+            "N7Loop1": [
+                {
+                    "_id": "66a92d2ed12a44000809711e",
+                    "N7": {
+                        "N702": "0000000000",
+                        "N711": "TV"
+                    },
+                    "M7": [
+                        {
+                            "_id": "66a92d2ed12a44000809711f",
+                            "M701": "227291896"
+                        }
+                    ]
+                }
+            ],
+            "S5Loop1": [
+                {
+                    "_id": "66a92d2ed12a440008097120",
+                    "S5": {
+                        "S501": "1",
+                        "S502": "LD",
+                        "S503": "6359",
+                        "S504": "L",
+                        "S505": "42",
+                        "S506": "PC",
+                        "S507": "1750",
+                        "S508": "E"
+                    },
+                    "L11_3": [
+                        {
+                            "_id": "66a92d2ed12a440008097121"
+                        }
+                    ],
+                    "G62_2": [
+                        {
+                            "_id": "66a92d2ed12a440008097122",
+                            "G6201": "37",
+                            "G6202": "20240801",
+                            "G6203": "I",
+                            "G6204": "080000"
+                        },
+                        {
+                            "_id": "66a92d2ed12a440008097123",
+                            "G6201": "38",
+                            "G6202": "20240801",
+                            "G6203": "K",
+                            "G6204": "080000"
+                        }
+                    ],
+                    "LAD": [
+                        {
+                            "_id": "66a92d2ed12a440008097124"
+                        }
+                    ],
+                    "AT5_2": [
+                        {
+                            "_id": "66a92d2ed12a440008097125"
+                        }
+                    ],
+                    "NTE_2": [
+                        {
+                            "_id": "66a92d2ed12a440008097126"
+                        }
+                    ],
+                    "N1Loop2": [
+                        {
+                            "_id": "66a92d2ed12a440008097127",
+                            "N1_2": {
+                                "N101": "SF",
+                                "N102": "HESSAIRE PRODUCTS, INC.-STOCKTON",
+                                "N103": "93",
+                                "N104": "875326CA001"
+                            },
+                            "N3_2": [
+                                {
+                                    "_id": "66a92d2ed12a440008097128",
+                                    "N301": "2991 NAVONE RD."
+                                }
+                            ],
+                            "N4_2": {
+                                "N401": "STOCKTON",
+                                "N402": "CA",
+                                "N403": "95215",
+                                "N404": "US"
+                            },
+                            "G61_2": [
+                                {
+                                    "_id": "66a92d2ed12a440008097129",
+                                    "G6101": "SD",
+                                    "G6102": "HESSAIRE APPOINTMENTS",
+                                    "G6103": "TE",
+                                    "G6104": "9999999999"
+                                }
+                            ]
+                        }
+                    ],
+                    "L5Loop1": [
+                        {
+                            "_id": "66a92d2ed12a44000809712a",
+                            "G61Loop1": [
+                                {
+                                    "_id": "66a92d2ed12a44000809712b",
+                                    "L11_4": [
+                                        {
+                                            "_id": "66a92d2ed12a44000809712c"
+                                        }
+                                    ],
+                                    "LH6_2": [
+                                        {
+                                            "_id": "66a92d2ed12a44000809712d"
+                                        }
+                                    ],
+                                    "LH1Loop2": [
+                                        {
+                                            "_id": "66a92d2ed12a44000809712e",
+                                            "LH2": [
+                                                {
+                                                    "_id": "66a92d2ed12a44000809712f"
+                                                }
+                                            ],
+                                            "LH3": [
+                                                {
+                                                    "_id": "66a92d2ed12a440008097130"
+                                                }
+                                            ],
+                                            "LFH": [
+                                                {
+                                                    "_id": "66a92d2ed12a440008097131"
+                                                }
+                                            ],
+                                            "LEP": [
+                                                {
+                                                    "_id": "66a92d2ed12a440008097132"
+                                                }
+                                            ],
+                                            "LHT": [
+                                                {
+                                                    "_id": "66a92d2ed12a440008097133"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "OIDLoop1": [
+                        {
+                            "_id": "66a92d2ed12a440008097134",
+                            "OID": {
+                                "OID01": "2014209734"
+                            },
+                            "G62_3": [
+                                {
+                                    "_id": "66a92d2ed12a440008097135"
+                                }
+                            ],
+                            "LAD_2": [
+                                {
+                                    "_id": "66a92d2ed12a440008097136"
+                                }
+                            ],
+                            "L5Loop2": [
+                                {
+                                    "_id": "66a92d2ed12a440008097137",
+                                    "G61Loop2": [
+                                        {
+                                            "_id": "66a92d2ed12a440008097138",
+                                            "L11_5": [
+                                                {
+                                                    "_id": "66a92d2ed12a440008097139"
+                                                }
+                                            ],
+                                            "LH6_3": [
+                                                {
+                                                    "_id": "66a92d2ed12a44000809713a"
+                                                }
+                                            ],
+                                            "LH1Loop2": [
+                                                {
+                                                    "_id": "66a92d2ed12a44000809713b",
+                                                    "LH2_2": [
+                                                        {
+                                                            "_id": "66a92d2ed12a44000809713c"
+                                                        }
+                                                    ],
+                                                    "LH3_2": [
+                                                        {
+                                                            "_id": "66a92d2ed12a44000809713d"
+                                                        }
+                                                    ],
+                                                    "LFH_2": [
+                                                        {
+                                                            "_id": "66a92d2ed12a44000809713e"
+                                                        }
+                                                    ],
+                                                    "LEP_2": [
+                                                        {
+                                                            "_id": "66a92d2ed12a44000809713f"
+                                                        }
+                                                    ],
+                                                    "LHT_2": [
+                                                        {
+                                                            "_id": "66a92d2ed12a440008097140"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "N7Loop2": [
+                        {
+                            "_id": "66a92d2ed12a440008097141",
+                            "M7_2": [
+                                {
+                                    "_id": "66a92d2ed12a440008097142"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "_id": "66a92d2ed12a440008097143",
+                    "S5": {
+                        "S501": "2",
+                        "S502": "CU",
+                        "S503": "6359",
+                        "S504": "L",
+                        "S505": "42",
+                        "S506": "PC",
+                        "S507": "1750",
+                        "S508": "E"
+                    },
+                    "L11_3": [
+                        {
+                            "_id": "66a92d2ed12a440008097144"
+                        }
+                    ],
+                    "G62_2": [
+                        {
+                            "_id": "66a92d2ed12a440008097145",
+                            "G6201": "53",
+                            "G6202": "20240802",
+                            "G6203": "G",
+                            "G6204": "105700"
+                        },
+                        {
+                            "_id": "66a92d2ed12a440008097146",
+                            "G6201": "54",
+                            "G6202": "20240802",
+                            "G6203": "L",
+                            "G6204": "105700"
+                        }
+                    ],
+                    "LAD": [
+                        {
+                            "_id": "66a92d2ed12a440008097147"
+                        }
+                    ],
+                    "AT5_2": [
+                        {
+                            "_id": "66a92d2ed12a440008097148"
+                        }
+                    ],
+                    "NTE_2": [
+                        {
+                            "_id": "66a92d2ed12a440008097149",
+                            "NTE01": "LOI",
+                            "NTE02": "IFC DEST"
+                        },
+                        {
+                            "_id": "66a92d2ed12a44000809714a",
+                            "NTE01": "LOI",
+                            "NTE02": "Load REQUIRES electronic paperwork. Text 7702129105 or use Vector App at pickup."
+                        }
+                    ],
+                    "N1Loop2": [
+                        {
+                            "_id": "66a92d2ed12a44000809714b",
+                            "N1_2": {
+                                "N101": "ST",
+                                "N102": "Home Depot RDC #5643",
+                                "N103": "93",
+                                "N104": "5643"
+                            },
+                            "N3_2": [
+                                {
+                                    "_id": "66a92d2ed12a44000809714c",
+                                    "N301": "9081 WEST WASHINGTON STREET"
+                                }
+                            ],
+                            "N4_2": {
+                                "N401": "TOLLESON",
+                                "N402": "AZ",
+                                "N403": "85353",
+                                "N404": "US"
+                            },
+                            "G61_2": [
+                                {
+                                    "_id": "66a92d2ed12a44000809714d",
+                                    "G6101": "RE",
+                                    "G6102": "JASMINE XXXXX",
+                                    "G6103": "TE",
+                                    "G6104": "623-293-9100 x 428"
+                                }
+                            ]
+                        }
+                    ],
+                    "L5Loop1": [
+                        {
+                            "_id": "66a92d2ed12a44000809714e",
+                            "G61Loop1": [
+                                {
+                                    "_id": "66a92d2ed12a44000809714f",
+                                    "L11_4": [
+                                        {
+                                            "_id": "66a92d2ed12a440008097150"
+                                        }
+                                    ],
+                                    "LH6_2": [
+                                        {
+                                            "_id": "66a92d2ed12a440008097151"
+                                        }
+                                    ],
+                                    "LH1Loop2": [
+                                        {
+                                            "_id": "66a92d2ed12a440008097152",
+                                            "LH2": [
+                                                {
+                                                    "_id": "66a92d2ed12a440008097153"
+                                                }
+                                            ],
+                                            "LH3": [
+                                                {
+                                                    "_id": "66a92d2ed12a440008097154"
+                                                }
+                                            ],
+                                            "LFH": [
+                                                {
+                                                    "_id": "66a92d2ed12a440008097155"
+                                                }
+                                            ],
+                                            "LEP": [
+                                                {
+                                                    "_id": "66a92d2ed12a440008097156"
+                                                }
+                                            ],
+                                            "LHT": [
+                                                {
+                                                    "_id": "66a92d2ed12a440008097157"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "OIDLoop1": [
+                        {
+                            "_id": "66a92d2ed12a440008097158",
+                            "OID": {
+                                "OID01": "2014209734"
+                            },
+                            "G62_3": [
+                                {
+                                    "_id": "66a92d2ed12a440008097159"
+                                }
+                            ],
+                            "LAD_2": [
+                                {
+                                    "_id": "66a92d2ed12a44000809715a"
+                                }
+                            ],
+                            "L5Loop2": [
+                                {
+                                    "_id": "66a92d2ed12a44000809715b",
+                                    "G61Loop2": [
+                                        {
+                                            "_id": "66a92d2ed12a44000809715c",
+                                            "L11_5": [
+                                                {
+                                                    "_id": "66a92d2ed12a44000809715d"
+                                                }
+                                            ],
+                                            "LH6_3": [
+                                                {
+                                                    "_id": "66a92d2ed12a44000809715e"
+                                                }
+                                            ],
+                                            "LH1Loop2": [
+                                                {
+                                                    "_id": "66a92d2ed12a44000809715f",
+                                                    "LH2_2": [
+                                                        {
+                                                            "_id": "66a92d2ed12a440008097160"
+                                                        }
+                                                    ],
+                                                    "LH3_2": [
+                                                        {
+                                                            "_id": "66a92d2ed12a440008097161"
+                                                        }
+                                                    ],
+                                                    "LFH_2": [
+                                                        {
+                                                            "_id": "66a92d2ed12a440008097162"
+                                                        }
+                                                    ],
+                                                    "LEP_2": [
+                                                        {
+                                                            "_id": "66a92d2ed12a440008097163"
+                                                        }
+                                                    ],
+                                                    "LHT_2": [
+                                                        {
+                                                            "_id": "66a92d2ed12a440008097164"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "N7Loop2": [
+                        {
+                            "_id": "66a92d2ed12a440008097165",
+                            "M7_2": [
+                                {
+                                    "_id": "66a92d2ed12a440008097166"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "L3": {
+                "L301": "6359",
+                "L302": "G",
+                "L309": "1750",
+                "L310": "E",
+                "L311": "1750",
+                "L312": "L"
+            },
+            "dateSentByPartner": "20240730",
+            "timeSentByPartner": "1410",
+            "transactionSetControlNumber": "75638",
+            "shipmentCreated": true,
+            "shipmentCreatedReason": "",
+            "createdAt": "2024-07-30T18:13:02.421Z",
+            "name": "Home Depot",
+            "partnerId": "home-depot",
+            "clientId": "ZUUM",
+            "shipmentIdNumber": "227291896",
+            "file": "ZCWDUB3CCAPP515_20247230181050266402236305098151609021244@SIBSERVICE1005",
+            "partnerGroupControlNumber": 575637,
+            "stopsNr": 2,
+            "updatedAt": "2024-07-30T18:20:02.842Z",
+            "__v": 0,
+            "taken": true,
+            "takenTime": "2024-07-30T18:20:01.148Z"
+        },
+        "orderNo": "2014209734 / Del appt# 5759100113909606",
+        "poNo": "227291896",
+        "referenceNo": "227291896",
+        "serviceLevelStatus": "Cluster",
+        "distances": [
+            {
+                "unit": "miles",
+                "source": "google-api",
+                "value": "706"
+            }
+        ],
+        "load": {
+            "packagingType": "Palletized",
+            "ediNotes": [
+                "Weight: 6359,\nWeight Qualifier: G,\nLading QTY: 1750,\nWeight Unit Code: L,\nRate Code CLUSTER     Line Haul 1265.38,\nEquipment Number: 0000000000"
+            ],
+            "dropTrailerAtShipper": false,
+            "dropTrailerAtReceiver": true,
+            "_id": "66a956c93e49630008de7f29",
+            "customReferences": [],
+            "referenceNumbers": [],
+            "palletItems": [],
+            "miscItems": [],
+            "totalWeight": 6359,
+            "commodity": "Coolers",
+            "type": "Full Truck Load",
+            "notes": "***EVERY DRY VAN HAS TO BE SEALED WITH SEAL # AND TRAILER # WRITTEN ON BOL*\n\n2-3 BUSINESS DAY DROP TRAILER AT THE RECEIVER, $25 FOR ANY ADDITIONAL BUSINESS DAY. It is ultimately the carrier's responsibility to follow up with the loading status of their trailers.",
+            "privateNotes": "\n",
+            "isHighValue": false,
+            "totalValue": 0,
+            "freightClass": null
+        },
+        "ediPartnerId": "home-depot",
+        "availableOnMarketplaces": [
+            {
+                "tenantId": "ZUUM",
+                "posted": false,
+                "lastActionDate": "2024-07-31T13:39:35.411Z"
+            }
+        ],
+        "createdAt": "2024-07-30T18:20:02.000Z",
+        "customer": {
+            "_id": "5cd5ca129a6d5e002e09ce1b",
+            "createdAt": "2019-05-10T18:59:30.158Z",
+            "updatedAt": "2024-06-25T17:20:00.642Z",
+            "name": "Home Depot",
+            "email": "homedepot@zuumapp.com",
+            "hasBankAccount": false,
+            "isDeleted": false,
+            "hasSignedPacket": false,
+            "type": "Shipper",
+            "addresses": [
+                {
+                    "type": "Main",
+                    "address1": "2455 Paces Ferry Road ",
+                    "city": "Atlanta ",
+                    "state": "Georgia",
+                    "stateAbbr": "GA",
+                    "zipCode": "30339",
+                    "country": "US"
+                }
+            ],
+            "__v": 24,
+            "stripeCustomerId": "cus_F2jP6ouvhu8uFc",
+            "admin": "5cd5ca129a6d5e002e09ce1c",
+            "dotNumber": "",
+            "faxNumber": "17703842698",
+            "mcNumber": "",
+            "notes": "***ALL TRAILERS FOR FLATBED HAVE TO SCALE 48K LBS*** TONU WILL NOT BE PAID IF TRAILER CANNOT SCALE***EVERY DRY VAN HAS TO BE SEALED WITH SEAL # AND TRAILER # WRITTEN ON BOL*",
+            "payment": {
+                "remitTo": "zuum",
+                "autoSendInvoiceToUsers": [
+                    "5cd5ca129a6d5e002e09ce1c"
+                ],
+                "terms": "30",
+                "finalizeInvoiceOn": "INVOICE_EMAILED",
+                "autoSendInvoice": false
+            },
+            "phone": "17703842553",
+            "phoneNumberExt": "",
+            "privateNotes": "\n",
+            "insurances": [],
+            "enableTrackingEmails": false,
+            "brokerIds": [
+                "ZUUM"
+            ],
+            "selectedBrokerId": "ZUUM",
+            "documents": {
+                "carrierAuthority": [],
+                "insuranceCertificate": [],
+                "safetyProfile": [],
+                "hazmatCertificate": [],
+                "others": [
+                    {
+                        "escalate": false,
+                        "approved": false,
+                        "_id": "5e9e0b79e6b445003495c3a4",
+                        "createdAt": "2020-04-20T20:52:08.459Z",
+                        "url_s": "https://storage.googleapis.com/zuumapp/checklists/0264fa013825d7803ee111c92c9654c6.pdf",
+                        "url": "https://storage.googleapis.com/zuumapp/checklists/0264fa013825d7803ee111c92c9654c6.pdf",
+                        "description": "COVID19 Essential Letter",
+                        "name": "COVID19 Essential Letter"
+                    },
+                    {
+                        "escalate": false,
+                        "approved": false,
+                        "_id": "5f3c260c77ca170034784396",
+                        "name": "Contract ",
+                        "description": "has new tarp rate and fuel surcharge",
+                        "url": "https://storage.googleapis.com/zuumapp/checklists/Contract__5cd5ca129a6d5e002e09ce1b_Home_Depot__7182020_123.pdf",
+                        "url_s": "https://storage.googleapis.com/zuumapp/checklists/Contract__5cd5ca129a6d5e002e09ce1b_Home_Depot__7182020_123.pdf",
+                        "createdAt": "2020-08-18T19:03:38.317Z"
+                    },
+                    {
+                        "escalate": false,
+                        "approved": false,
+                        "_id": "60268b41677301003900fe01",
+                        "name": "Updated Contact- Analyst Map 2/2/21",
+                        "description": "who for where",
+                        "url": "https://storage.googleapis.com/zuumapp/checklists/updated_contact-_analyst_map_2_2_21_5cd5ca129a6d5e002e09ce1b_home_depot__1122021_65.png",
+                        "url_s": "https://storage.googleapis.com/zuumapp/checklists/updated_contact-_analyst_map_2_2_21_5cd5ca129a6d5e002e09ce1b_home_depot__1122021_65_s.png",
+                        "createdAt": "2021-02-12T14:05:53.921Z"
+                    },
+                    {
+                        "escalate": false,
+                        "approved": false,
+                        "_id": "60f86baa6446e0003977347a",
+                        "name": "Contacts for DEW",
+                        "description": "",
+                        "url": "https://storage.googleapis.com/zuumapp/checklists/contacts_for_dew_5cd5ca129a6d5e002e09ce1b_home_depot__6212021_1147.pdf",
+                        "url_s": "https://storage.googleapis.com/zuumapp/checklists/contacts_for_dew_5cd5ca129a6d5e002e09ce1b_home_depot__6212021_1147.pdf",
+                        "createdAt": "2021-07-21T18:47:06.983Z"
+                    },
+                    {
+                        "escalate": false,
+                        "approved": false,
+                        "_id": "6144d6f3359e9000397b0802",
+                        "name": "Approval process for Accessorial Charges - HD",
+                        "description": "",
+                        "url": "https://storage.googleapis.com/zuumapp/checklists/approval_process_for_accessorial_charges_-_hd_5cd5ca129a6d5e002e09ce1b_home_depot__8172021_1057.pdf",
+                        "url_s": "https://storage.googleapis.com/zuumapp/checklists/approval_process_for_accessorial_charges_-_hd_5cd5ca129a6d5e002e09ce1b_home_depot__8172021_1057.pdf",
+                        "createdAt": "2021-09-17T17:57:07.917Z"
+                    },
+                    {
+                        "escalate": false,
+                        "approved": false,
+                        "_id": "625858fbed44af0009af0ebc",
+                        "name": "Analyst Map",
+                        "description": "",
+                        "url": "https://storage.googleapis.com/zuumapp/checklists/analyst_map_5cd5ca129a6d5e002e09ce1b_home_depot__3142022_1325.png",
+                        "url_s": "https://storage.googleapis.com/zuumapp/checklists/analyst_map_5cd5ca129a6d5e002e09ce1b_home_depot__3142022_1325.png",
+                        "createdAt": "2022-04-14T17:25:16.294Z"
+                    },
+                    {
+                        "escalate": false,
+                        "approved": false,
+                        "_id": "626c4b8f410f460009e65218",
+                        "name": "Accessorial update 4/29/22",
+                        "description": "",
+                        "url": "https://storage.googleapis.com/zuumapp/checklists/accessorial_update_4_29_22_5cd5ca129a6d5e002e09ce1b_home_depot__3292022_1333.pdf",
+                        "url_s": "https://storage.googleapis.com/zuumapp/checklists/accessorial_update_4_29_22_5cd5ca129a6d5e002e09ce1b_home_depot__3292022_1333.pdf",
+                        "createdAt": "2022-04-29T20:33:19.715Z"
+                    },
+                    {
+                        "escalate": false,
+                        "approved": false,
+                        "_id": "62813f2275c5630008eadce0",
+                        "name": "HD Supplier Reference Guide Spring 2022",
+                        "description": "",
+                        "url": "https://storage.googleapis.com/zuumapp/checklists/hd_supplier_reference_guide_spring_2022_5cd5ca129a6d5e002e09ce1b_home_depot__4152022_1357.pdf",
+                        "url_s": "https://storage.googleapis.com/zuumapp/checklists/hd_supplier_reference_guide_spring_2022_5cd5ca129a6d5e002e09ce1b_home_depot__4152022_1357.pdf",
+                        "createdAt": "2022-05-15T17:57:54.516Z"
+                    },
+                    {
+                        "escalate": false,
+                        "approved": false,
+                        "_id": "630919a0589b930008f46988",
+                        "name": "Executed Contract by both parties",
+                        "description": "",
+                        "url": "https://storage.googleapis.com/zuumapp/checklists/executed_contract_by_both_parties_5cd5ca129a6d5e002e09ce1b_home_depot__7262022_156.pdf",
+                        "url_s": "https://storage.googleapis.com/zuumapp/checklists/executed_contract_by_both_parties_5cd5ca129a6d5e002e09ce1b_home_depot__7262022_156.pdf",
+                        "createdAt": "2022-08-26T19:06:08.870Z"
+                    },
+                    {
+                        "escalate": false,
+                        "approved": false,
+                        "_id": "667afc40795ff500089c6a97",
+                        "name": "Home_Depot_Zuum_Transportation_Inc_BTSA_",
+                        "description": "",
+                        "url": "https://storage.googleapis.com/zuumapp/checklists/Home_Depot_Zuum_Transportation_Inc_BTSA__5cd5ca129a6d5e002e09ce1b_Home_Depot__5252024_1319.pdf",
+                        "url_s": "https://storage.googleapis.com/zuumapp/checklists/Home_Depot_Zuum_Transportation_Inc_BTSA__5cd5ca129a6d5e002e09ce1b_Home_Depot__5252024_1319.pdf",
+                        "createdAt": "2024-06-25T17:20:00.238Z"
+                    }
+                ],
+                "w9": []
+            },
+            "billingType": "billingInfo",
+            "tenantId": "ZUUM",
+            "customerId": 3281,
+            "assets": [],
+            "emailNotifications": [],
+            "estimates": {},
+            "pricingPerson": "5c65d65add44b085085f2aec",
+            "salesPerson": "5cb4da7af4523b002f31344e",
+            "logoImage": {
+                "approved": false,
+                "_id": "5fd400df7323d8002af5a909",
+                "url": "https://storage.googleapis.com/zuumapp/checklists/fa763010610e9a34a506cc044e2d38dc_r_s.png"
+            },
+            "accessToMarketplace": [],
+            "accessorialFees": [],
+            "excludeFromEmails": [],
+            "invoiceSettings": {
+                "sendCopy": true,
+                "sendCopyToAddresses": false,
+                "emails": []
+            },
+            "references": [],
+            "tenantType": "Child",
+            "pendingBookForLoads": [],
+            "pricingPersonSecondary": null,
+            "forbidAccessToMarketplace": [],
+            "joinZuum": [],
+            "freightTerms": "collect",
+            "carrierPerTenantId": 3281,
+            "accountManager": "62475482ff3698000852e998",
+            "carrierTypes": [],
+            "customerPerTenantId": 18172,
+            "additionalLicensing": [],
+            "awardedLanes": [],
+            "preferredLanes": [],
+            "owningCompany": "59a5d578bbb474526f7b1927",
+            "contactEmails": [],
+            "dedicatedLanes": [],
+            "dwollaOnboarded": false,
+            "onboarding": {
+                "status": "Completed"
+            },
+            "ediAutomation": {
+                "useEdiLane": false,
+                "useRoutingGuide": false
+            }
+        },
+        "customerTenantId": "ZUUM",
+        "customerUser": {
+            "_id": "5cd5ca129a6d5e002e09ce1c",
+            "createdAt": "2019-05-10T18:59:30.576Z",
+            "updatedAt": "2022-08-11T12:14:49.320Z",
+            "company": "5cd5ca129a6d5e002e09ce1b",
+            "firstName": "Yasmine ",
+            "lastName": "Reyes ",
+            "email": "ebeckwith@zuumapp.com",
+            "isApproved": false,
+            "onboardingCompleted": false,
+            "emailNotificationsEnabled": true,
+            "isDeleted": false,
+            "isActive": true,
+            "type": "shipper",
+            "roles": [
+                "shipper_admin"
+            ],
+            "__v": 5,
+            "cellPhone": "",
+            "phoneNumber": "",
+            "phoneNumberExt": "",
+            "departments": [],
+            "disabledNotifications": [],
+            "addresses": [],
+            "emergencyContacts": [],
+            "emailNotifications": [],
+            "selectedLanguage": "en-RO,en-US;q=0.9,en;q=0.8,ro;q=0.7",
+            "tutorials": [],
+            "chatUser": "62f4f2b9ef14b2000a32a827"
+        },
+        "originator": {
+            "_id": "5cb4da7af4523b002f31344e",
+            "company": "59a5d578bbb474526f7b1927",
+            "firstName": "House",
+            "lastName": "Account",
+            "email": "operations@zuumapp.com",
+            "phoneNumber": "16462116515",
+            "type": "broker"
+        },
+        "pricingPerson": {
+            "_id": "5c65d65add44b085085f2aec",
+            "company": "59a5d578bbb474526f7b1927",
+            "firstName": "Alan",
+            "lastName": "Ruelas",
+            "email": "aruelas+broker@zuumapp.com",
+            "phoneNumber": "19516623669",
+            "type": "broker"
+        },
+        "parentCustomerTenantId": "ZUUM",
+        "loadNumberByTenants": [],
+        "emailNotifications": [
+            {
+                "_id": "66aa3e973e49630008f1f9bf",
+                "type": "Signed Carrier Confirmation",
+                "date": "2024-07-31T13:39:35.803Z",
+                "toCompany": "66671b4540c98d0008f37c68",
+                "toUser": "66671b4540c98d0008f37c67"
+            }
+        ],
+        "accessorials": [],
+        "timekeeper": {
+            "status": "In Transit",
+            "expireAt": "2024-08-03T03:30:00.000Z",
+            "startedAt": null,
+            "dateTime": "2024-08-01T18:56:53.000Z"
+        },
+        "customerLaneId": "",
+        "owningCompany": {
+            "_id": "59a5d578bbb474526f7b1927",
+            "name": "Zuum Transportation Inc.",
+            "tenantId": "ZUUM",
+            "tenantType": "Parent"
+        },
+        "updatedAt": "2024-08-01T23:53:45.494Z",
+        "loadId": 261219,
+        "__v": 2,
+        "priceType": "Contract/Spot",
+        "esExportedAt": "2024-08-01T18:56:18.303Z",
+        "isInCheckCallFilterId": null,
+        "missedCheckCallType": "NONE",
+        "appointmentPerson": {
+            "_id": "61a8fb507fa403003088fd82",
+            "type": "broker",
+            "company": "59a5d578bbb474526f7b1927",
+            "firstName": "Mitch",
+            "lastName": "Meneses",
+            "email": "mmeneses@zuumapp.com",
+            "phoneNumber": "19492849936"
+        },
+        "accessorialTypePerDays": {
+            "dropTrailerReceiver": 3
+        },
+        "price": "$1,265.38",
+        "suggestedPrice": 111680,
+        "targetPrice": "$1,116.80",
+        "operator": {
+            "_id": "63bc4f1c931e6b0008db10bf",
+            "type": "broker",
+            "company": "59a5d578bbb474526f7b1927",
+            "firstName": "Ivory",
+            "lastName": "Viray",
+            "email": "iviray@zuumapp.com",
+            "phoneNumber": "19492810440"
+        },
+        "routingGuideId": null,
+        "job": {
+            "_id": "66aa3e963e49630008f1f82d",
+            "status": "Pick Up Complete",
+            "truckStatus": "Pick Up Complete",
+            "isOnMacroPoint": true,
+            "thirdPartyTracking": [],
+            "trackedOnMobile": false,
+            "pickUps": [
+                "66a92ed1d12a44000809723a"
+            ],
+            "dropOffs": [
+                "66a92ed2d12a44000809723e"
+            ],
+            "isBillSent": false,
+            "shipment": "66a92ed2d12a44000809724c",
+            "offer": "66aa3e963e49630008f1f81e",
+            "carrierId": {
+                "_id": "66671b4540c98d0008f37c68",
+                "type": "Carrier",
+                "dwollaOnboarded": false,
+                "carrierTypes": [
+                    "FTL"
+                ],
+                "enableTrackingEmails": true,
+                "hasSignedPacket": true,
+                "isDeleted": false,
+                "hasBankAccount": false,
+                "tenantType": "Child",
+                "assets": [],
+                "excludeFromEmails": [],
+                "accessToMarketplace": [],
+                "invoiceSettings": {
+                    "sendCopy": true,
+                    "sendCopyToAddresses": false,
+                    "emails": []
+                },
+                "forbidAccessToMarketplace": [],
+                "freightTerms": "collect",
+                "preferredLanes": [],
+                "dedicatedLanes": [],
+                "name": "Black Hawk Inc",
+                "establishedDate": "2021-11-02T22:00:00.000Z",
+                "phone": "12097402885",
+                "mcNumber": "1326526",
+                "addresses": [
+                    {
+                        "country": "US",
+                        "state": "California",
+                        "address1": "Comet Lane",
+                        "zipCode": "95330",
+                        "city": "Lathrop",
+                        "type": "Main",
+                        "unit": "1081"
+                    }
+                ],
+                "tenantId": "ZUUM",
+                "accessorialFees": [],
+                "contactEmails": [],
+                "additionalLicensing": [],
+                "emailNotifications": [
+                    {
+                        "notes": [],
+                        "type": "onboarding_carrier",
+                        "date": "2024-06-10T16:25:01.062Z"
+                    }
+                ],
+                "email": "",
+                "owningCompany": "59a5d578bbb474526f7b1927",
+                "mcNumberCheck": {
+                    "date": "2024-06-10T16:33:59.618Z",
+                    "status": "Approved",
+                    "operator": "5c65d65add44b085085f2aec"
+                },
+                "okToLoad": {
+                    "status": "Active",
+                    "updatedAt": "2024-06-10T16:34:02.157Z",
+                    "requestInfo": {
+                        "createdAt": "2024-06-10T16:11:30.410Z",
+                        "status": "Rejected",
+                        "type": "OK To Load",
+                        "operator": "63bc4f1c931e6b0008db10bf",
+                        "operatorComment": "yes",
+                        "manager": "5c65d65add44b085085f2aec",
+                        "repliedAt": "2024-06-10T16:33:55.873Z"
+                    }
+                },
+                "createdAt": "2024-06-10T15:27:01.462Z",
+                "updatedAt": "2024-06-13T20:55:14.370Z",
+                "carrierPerTenantId": 49752,
+                "__v": 6,
+                "onboarding": {
+                    "status": "Completed",
+                    "date": "2024-06-11T03:31:42.503Z",
+                    "source": "Mobile Onboarding",
+                    "termsAccepted": true
+                },
+                "admin": "66671b4540c98d0008f37c67",
+                "dotNumber": "03744119",
+                "businessName": "Black hawk Inc",
+                "businessType": "S Corp",
+                "carrierName": "Varinder pal Singh",
+                "ein": "87-0949122",
+                "taxInfoAddress": "2040 Towne Center DR Apt 4201",
+                "taxInfoAddressDetail": "lathrose , CA 95330",
+                "accountNos": "",
+                "businessTypeDetail": "",
+                "exemptFactaCode": "",
+                "exemptPayeeCode": "",
+                "ssn": ""
+            },
+            "fleetManager": {
+                "_id": "66671b4540c98d0008f37c67",
+                "departments": [],
+                "roles": [
+                    "fleet_admin"
+                ],
+                "type": "fleet_manager",
+                "isActive": true,
+                "isApproved": true,
+                "isDeleted": false,
+                "paidUser": true,
+                "emailNotificationsEnabled": true,
+                "activeExternalAccounting": "QuickBooks",
+                "disabledNotifications": [],
+                "selectedLanguage": "en-US,en;q=0.9",
+                "tutorials": [
+                    "Welcome Dialog",
+                    "Dont Jobs Tour"
+                ],
+                "email": "dispatch.black@gmail.com",
+                "lastName": "Singh",
+                "firstName": "Varinderpal",
+                "phoneNumber": "12097402885",
+                "addresses": [],
+                "emailNotifications": [],
+                "emergencyContacts": [],
+                "company": {
+                    "_id": "66671b4540c98d0008f37c68",
+                    "type": "Carrier",
+                    "dwollaOnboarded": false,
+                    "carrierTypes": [
+                        "FTL"
+                    ],
+                    "enableTrackingEmails": true,
+                    "hasSignedPacket": true,
+                    "isDeleted": false,
+                    "hasBankAccount": false,
+                    "tenantType": "Child",
+                    "assets": [],
+                    "excludeFromEmails": [],
+                    "accessToMarketplace": [],
+                    "invoiceSettings": {
+                        "sendCopy": true,
+                        "sendCopyToAddresses": false,
+                        "emails": []
+                    },
+                    "forbidAccessToMarketplace": [],
+                    "freightTerms": "collect",
+                    "preferredLanes": [],
+                    "dedicatedLanes": [],
+                    "name": "Black Hawk Inc",
+                    "establishedDate": "2021-11-02T22:00:00.000Z",
+                    "phone": "12097402885",
+                    "mcNumber": "1326526",
+                    "addresses": [
+                        {
+                            "country": "US",
+                            "state": "California",
+                            "address1": "Comet Lane",
+                            "zipCode": "95330",
+                            "city": "Lathrop",
+                            "type": "Main",
+                            "unit": "1081"
+                        }
+                    ],
+                    "tenantId": "ZUUM",
+                    "accessorialFees": [],
+                    "contactEmails": [],
+                    "additionalLicensing": [],
+                    "emailNotifications": [
+                        {
+                            "notes": [],
+                            "type": "onboarding_carrier",
+                            "date": "2024-06-10T16:25:01.062Z"
+                        }
+                    ],
+                    "email": "",
+                    "owningCompany": "59a5d578bbb474526f7b1927",
+                    "mcNumberCheck": {
+                        "date": "2024-06-10T16:33:59.618Z",
+                        "status": "Approved",
+                        "operator": "5c65d65add44b085085f2aec"
+                    },
+                    "okToLoad": {
+                        "status": "Active",
+                        "updatedAt": "2024-06-10T16:34:02.157Z",
+                        "requestInfo": {
+                            "createdAt": "2024-06-10T16:11:30.410Z",
+                            "status": "Rejected",
+                            "type": "OK To Load",
+                            "operator": "63bc4f1c931e6b0008db10bf",
+                            "operatorComment": "yes",
+                            "manager": "5c65d65add44b085085f2aec",
+                            "repliedAt": "2024-06-10T16:33:55.873Z"
+                        }
+                    },
+                    "createdAt": "2024-06-10T15:27:01.462Z",
+                    "updatedAt": "2024-06-13T20:55:14.370Z",
+                    "carrierPerTenantId": 49752,
+                    "__v": 6,
+                    "onboarding": {
+                        "status": "Completed",
+                        "date": "2024-06-11T03:31:42.503Z",
+                        "source": "Mobile Onboarding",
+                        "termsAccepted": true
+                    },
+                    "admin": "66671b4540c98d0008f37c67",
+                    "dotNumber": "03744119",
+                    "businessName": "Black hawk Inc",
+                    "businessType": "S Corp",
+                    "carrierName": "Varinder pal Singh",
+                    "ein": "87-0949122",
+                    "taxInfoAddress": "2040 Towne Center DR Apt 4201",
+                    "taxInfoAddressDetail": "lathrose , CA 95330",
+                    "accountNos": "",
+                    "businessTypeDetail": "",
+                    "exemptFactaCode": "",
+                    "exemptPayeeCode": "",
+                    "ssn": ""
+                },
+                "selfOnboarded": true,
+                "hasPassword": true,
+                "createdAt": "2024-06-10T15:27:01.600Z",
+                "updatedAt": "2024-08-01T18:43:01.330Z",
+                "__v": 2,
+                "lastLogin": "2024-07-26T14:11:32.020Z",
+                "loggedInto": "web",
+                "eSignature": {
+                    "_id": "66671c4240c98d0008f3b5fd",
+                    "url": "https://storage.googleapis.com/zuumapp/checklists/19d2ee619180d46ef4b41b5611f0a2c3_r.png",
+                    "createdAt": "2024-06-10T15:31:14.882Z",
+                    "updatedAt": "2024-06-10T15:31:14.882Z"
+                },
+                "androidChannelId": "",
+                "channelId": "1550be2d-dd91-4ea2-9c18-5f5eb68c4807",
+                "chatUser": "6668897ff9e82d000855a0c0",
+                "passwordUpdatedAt": "2024-06-11T17:29:48.831Z",
+                "driverLicense": {
+                    "_id": "6668898fd240d40008c8f1a8",
+                    "country": "",
+                    "state": "",
+                    "number": "",
+                    "photo": null
+                },
+                "officePhoneNumber": "12099232954",
+                "phoneNumberExt": "",
+                "geoLocation": {
+                    "lat": 37.81703597019344,
+                    "city": "Lathrop",
+                    "long": -121.3136289712335,
+                    "state": "CA"
+                }
+            },
+            "contact": {
+                "_id": "66671b4540c98d0008f37c67",
+                "type": "fleet_manager",
+                "email": "dispatch.black@gmail.com",
+                "lastName": "Singh",
+                "firstName": "Varinderpal",
+                "phoneNumber": "12097402885",
+                "company": "66671b4540c98d0008f37c68",
+                "officePhoneNumber": "12099232954"
+            },
+            "driver": {
+                "_id": "66abd1465bf625000851b138",
+                "type": "driver",
+                "isActive": true,
+                "isApproved": true,
+                "company": "66671b4540c98d0008f37c68",
+                "firstName": "J",
+                "lastName": "driver",
+                "phoneNumber": "12604250633",
+                "email": "",
+                "geoLocation": {
+                    "lat": 35.0100202,
+                    "long": -117.63587318,
+                    "city": "Boron",
+                    "state": "CA",
+                    "distanceToNextStop": 325.83,
+                    "nextStopId": "66a92ed2d12a44000809723e",
+                    "date": "2024-08-01T23:53:45.196Z",
+                    "isAtFinalDropOff": false
+                }
+            },
+            "secondDriver": null,
+            "managedByUser": {
+                "_id": "63bc4f1c931e6b0008db10bf",
+                "type": "broker",
+                "company": {
+                    "_id": "59a5d578bbb474526f7b1927",
+                    "name": "Zuum Transportation Inc."
+                },
+                "firstName": "Ivory",
+                "lastName": "Viray",
+                "email": "iviray@zuumapp.com",
+                "phoneNumber": "19492810440"
+            },
+            "price": {
+                "accessorialsFees": "$100.00",
+                "fleetManager": "$1,300.00",
+                "shipper": "$1,265.38"
+            },
+            "distances": [
+                {
+                    "unit": "miles",
+                    "source": "google-api",
+                    "value": "706"
+                }
+            ],
+            "createdByBroker": "63bc4f1c931e6b0008db10bf",
+            "trailerNumber": " m26",
+            "createdAt": "2024-07-31T13:39:34.222Z",
+            "updatedAt": "2024-08-01T23:53:45.555Z",
+            "__v": 0,
+            "order": 1,
+            "truckNumber": "0211",
+            "dispatchedDate": "2024-08-01T18:12:35.893Z",
+            "nextStopId": "66a92ed2d12a44000809723e",
+            "inTransitDate": "2024-08-01T18:56:53.000Z"
+        },
+        "lastContact": "66abda425bf625000854cfae",
+        "trackingStatus": "In Transit",
+        "trackingStatusInfo": {
+            "updatedAt": "2024-08-01T23:53:45.493Z",
+            "timeZoneId": "America/Los_Angeles",
+            "nextStop": {
+                "id": "66a92ed2d12a44000809723e",
+                "eta": "2024-08-02T05:58:44.976Z",
+                "distanceInMiles": 325.83
+            },
+            "status": "In Transit"
+        },
+        "trackingStatusUpdatedDate": "2024-08-01T23:53:45.493Z",
+        "hasDocuments": {
+            "docUploaded": false,
+            "docApproved": false
+        },
+        "invoicePaid": false,
+        "billPaid": false,
+        "invoiceAndBillPaid": false
+    },
+    "result": {
+        "success": true,
+        "code": 200,
+        "message": ""
+    }
+}
