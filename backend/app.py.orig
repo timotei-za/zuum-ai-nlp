@@ -1,0 +1,59 @@
+import logging
+from flask import Flask
+from flask import request
+#from .intents import get_eta, get_status, get_location, get_date, get_price, intent_recognizer
+from intents import get_eta, get_status, get_location, get_date, get_price, intent_recognizer
+#from .ner import entity_recognizer
+from ner import entity_recognizer
+
+app = Flask(__name__)
+
+logging.basicConfig(level=logging.DEBUG)
+
+id2label = {0: 'Query_for_Shipment_Location', 1: 'Query_for_Shipment_StartEnd_Date', 
+            2: 'Query_for_Shipments_sent_in_windowed_time_period', 
+            3: 'Query_for_Shipment_Status', 4: 'Query_for_Shipment_ETA', 5: 'Query_for_Fuel_Price'}
+
+# Endpoints
+@app.route("/api")
+def hello_world():
+    app.logger.debug('Serving the hello endpoint')
+    return "<p>Zuum NLP Project Skeleton</p>"
+
+@app.route("/api/query")
+def user_query():
+    print(request.args)
+    query = request.args['query']
+    intent = id2label[intent_recognizer(query)]
+    print('Hello World!', query, 'with intent', intent)
+    shipment_id = str(entity_recognizer(query))
+    # return get_price(shipment_id)
+    if intent == 'Query_for_Shipment_Location':
+        return get_location(shipment_id)
+    elif intent == 'Query_for_Shipment_Status':
+        return get_status(shipment_id)
+    elif intent == 'Query_for_Shipment_StartEnd_Date' or intent == 'Query_for_Shipments_sent_in_windowed_time_period':
+        return get_date(shipment_id)
+    elif intent == 'Query_for_Shipment_ETA':
+        return get_eta(shipment_id)
+    elif intent == 'Query_for_Fuel_Price':
+        return get_price(shipment_id)
+    else:
+        return 'Could not find the intent, please say what information you would like'
+    
+@app.route("/api/recognize")
+def user_recognize():
+    query = request.args['query']
+    intent = request.args['intent'].lstrip(' ')
+    print('Bye World :(!', query, intent)
+    intent = id2label[intent_recognizer(query)]
+    print(intent)
+    return "<p>Zuum NLP Project Skeleton</p>"
+
+@app.route("/api/ner")
+def user_ner():
+    query = request.args['query']
+    intent = request.args['intent'].lstrip(' ')
+    print('Oooh World :O!', query, intent)
+    print(entity_recognizer(query))
+    return "<p>Zuum NLP Project Skeleton</p>"
