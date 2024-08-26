@@ -1,0 +1,11 @@
+#response-display {
+    width: 80%;
+    height: 35rem;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.33);
+    overflow-y: scroll;
+}
+
+#response-display::-webkit-scrollbar {
+    display: none;
+}

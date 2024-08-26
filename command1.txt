@@ -1,0 +1,382 @@
+    1  df -h
+    2  mount -a
+    3  moint --all
+    4  sudo su -
+    5  ls
+    6  neofetch
+    7  sudo apt install neofetch
+    8  neofetch
+    9  lshw
+   10  sudo lshw -C display
+   11  aticonfig --odgc
+   12  nvidia-smi
+   13  lspci | grep VGA
+   14  neofetch
+   15  exit
+   16  exit
+   17  ssh-keygen -t ed25519 -C "t.alex.2002@gmail.com"
+   18  cat ~/.ssh
+   19  cd ~/.ssh
+   20  ls
+   21  cat id_ed25519.pub
+   22  git clone git@github.com:zuumtrans/Zuum-AI-NLP.git
+   23  ls
+   24  rm Zuum-AI-NLP
+   25  sudo rm -rf Zuum-AI-NLP
+   26  ls
+   27  cd ..
+   28  ls
+   29  cd ..
+   30  ls
+   31  git clone git@github.com:zuumtrans/Zuum-AI-NLP.git
+   32  cd ..
+   33  ls
+   34  cd dev
+   35  ls
+   36  cd ..
+   37  ls
+   38  git clone git@github.com:zuumtrans/Zuum-AI-NLP.git
+   39  mkdir ./capstone
+   40  sudo git clone git@github.com:zuumtrans/Zuum-AI-NLP.git
+   41  ls
+   42  cd ~
+   43  ls
+   44  cd ..
+   45  cd ~/.ssh
+   46  ls
+   47  git clone git@github.com:zuumtrans/Zuum-AI-NLP.git
+   48  ls
+   49  cd Zuum-AI-NLP
+   50  l
+   51  ls
+   52  git branch
+   53  git branch production
+   54  git checkout production
+   55  git status
+   56  git branch
+   57  ls
+   58  git pull
+   59  git pull origin production
+   60  git status
+   61  ls
+   62  exit
+   63  cd ./~/.ssh
+   64  cd /.ssh
+   65  ls
+   66  cd ./.ssh
+   67  ls
+   68  cd Zuum-AI-NLP
+   69  pwd
+   70  ls
+   71  cd backend
+   72  ls
+   73  cd ..
+   74  cd backend
+   75  . env
+   76  dot 
+   77  touch .env
+   78  ls
+   79  vim .env
+   80  exit
+   81  cd /.ssh
+   82  ls
+   83  cd /.ssh
+   84  cd ./.ssh
+   85  ls
+   86  cd Zuum-AI-NLP/frontend
+   87  npm i
+   88  sudo apt install npm
+   89  exit
+   90  cd ./.ssh
+   91  cd Zuum-AI-NLP/backend
+   92  cd ../frontend
+   93  npm i
+   94  npm run dev
+   95  ls
+   96  cd src
+   97  npm run dev
+   98  cd ..
+   99  npm install vite
+  100  npm run dev
+  101  df
+  102  npm i
+  103  cd ../backend
+  104  ./zuum_env/Scripts/activate
+  105  python -m venv zuum_env
+  106  pip install venv
+  107  python
+  108  python -m venv zuum_env
+  109  python3 -m venv zuum_env
+  110  apt install python3.8-venv
+  111  sudo apt install python3.8-venv
+  112  df
+  113  python3 -m venv zuum_env
+  114  ls
+  115  ./zuum_env/Scripts/activate
+  116  ./zuum_env/bin/activate
+  117  sudo ./zuum_env/bin/activate
+  118  sudo source ./zuum_env/bin/activate
+  119  source ./zuum_env/bin/activate
+  120  ls
+  121  pip install -r requirements.txt
+  122  pip3 install -r requirements.txt
+  123  vim requirements.txt
+  124  pip install -r requirements.txt
+  125  vim requirements.txt
+  126  pip install -r requirements.txt
+  127  vim requirements.txt
+  128  pip install -r requirements.txt
+  129  vim requirements.txt
+  130  pip install -r requirements.txt
+  131  exit
+  132  df -h
+  133  df -h
+  134  sudo  su -
+  135  sudo su - 
+  136  exit
+  137  cd ./.ssh
+  138  ls
+  139  cd Zuum-AI-NLP
+  140  ls
+  141  cd frontend
+  142  npm i
+  143  cd ..
+  144  git branch
+  145  git pull
+  146  git pull origin production
+  147  cd frontend
+  148  npm i
+  149  cd ../backend
+  150  ./zuum_env/Scripts/activate
+  151  ls
+  152  ./zuum_env/Scripts/activate
+  153  ./zuum_env/bin/activate
+  154  sudo ./zuum_env/bin/activate
+  155  sudo source ./zuum_env/bin/activate
+  156  source 
+  157  source ./zuum_env/bin/activate
+  158  pip install -r requirements.txt
+  159  flask run
+  160  vim requirements.txt
+  161  pip install -r requirements.txt
+  162  vim requirements.txt
+  163  pip install -r requirements.txt
+  164  vim requirements.txt
+  165  pip install -r requirements.txt
+  166  vim requirements.txt
+  167  pip install -r requirements.txt
+  168  vim requirements.txt
+  169  pip install -r requirements.txt
+  170  flask run
+  171  sudo apt install python3-flask
+  172  flask run
+  173  pip install markupsafe
+  174  flask run
+  175  pip install markupsafe==2.0.1
+  176  flask run
+  177  python app.py
+  178  pip install flask
+  179  flask run
+  180  pip install markupsafe==2.1.1
+  181  flask run
+  182  exit
+  183  cd ./.ssh/Zuum-AI-NLP
+  184  ls
+  185  cd frontend
+  186  ls
+  187  npm i
+  188  npm run dev
+  189  vim vite.js
+  190  ls
+  191  cd src
+  192  ls
+  193  cd .
+  194  cd ..
+  195  npm uninstall vite
+  196  npm install --save-dev vite
+  197  npm run dev
+  198  npm install vite
+  199  node -v
+  200  npm install -g n
+  201  sudo npm install -g n
+  202  n lts
+  203  sudo n lts
+  204  node -v
+  205  sudo n latest
+  206  node -v
+  207  sudo n prune
+  208  sudo n latest
+  209  node -v
+  210  npm i
+  211  npm 0v
+  212  npm -v
+  213  sudo apt purge npm
+  214  npm -v
+  215  n latest
+  216  npm -v
+  217  sudo n latest
+  218  npm -v
+  219  npm 
+  220  node -v
+  221  sudo apt install npm
+  222  npm -v
+  223  npm run dev
+  224  sudo apt update
+  225  df
+  226  npm -v
+  227  sudo apt-get remove nodejs
+  228  node -v
+  229  pacman -S nodejs npm
+  230  sudo apt install pacman
+  231  pacman -S nodejs npm
+  232  node -v
+  233  sudo apt install nodejs
+  234  node -v
+  235  npm -v
+  236  sudo apt install npm 
+  237  npm -v
+  238  exit
+  239  cd ./.ssh/Zuum-AI-NLP
+  240  cd backend
+  241  ls
+  242  sudo rm-rf ./zuum_env
+  243  sudo rm -rf ./zuum_env
+  244  ls
+  245  python -m venv zuum_env
+  246  python3 -m venv zuum_env
+  247  ls
+  248  source ./zuum_env/bin/activate
+  249  pip install flask
+  250  flask run
+  251  pip install requests
+  252  flask run
+  253  pip install python-dotenv
+  254  flask run
+  255  pip install geopy
+  256  flask run
+  257  t
+  258  tt
+  259  t
+  260  flask run
+  261  ls
+  262  vim externalapi.py
+  263  cd ..
+  264  git pull
+  265  git pull origin production
+  266  vim app.py
+  267  ls
+  268  cd backend
+  269  vim externalapi.py
+  270  ls
+  271  git branch
+  272  vim app.py
+  273  vim intents.py
+  274  vim externalapi.py
+  275  git status
+  276  cd ..
+  277  git status
+  278  cd backend
+  279  git branch
+  280  cd ..
+  281  git branch
+  282  git checkout main
+  283  git stash
+  284  git checkout main
+  285  git branch -D production
+  286  git branch production
+  287  git checkout production
+  288  git pull origin production
+  289  git branch
+  290  ls
+  291  cd backend
+  292  flask run
+  293  vim externalapi.py
+  294  ls
+  295  vim intents.py
+  296  vim externalapi.py
+  297  vim intents.py
+  298  vim app.py
+  299  flask run
+  300  vim intents.py
+  301  flask run
+  302  pip install pandas
+  303  flask run
+  304  pip install transformers
+  305  flask run
+  306  pip install torch
+  307  git brnach
+  308  git branch
+  309  git pull origin production
+  310  flask run
+  311  pip install torch
+  312  flask run
+  313  pip install torch
+  314  flask run
+  315  pip3 install torch
+  316  flask run
+  317  pip install numpy
+  318  pip install scipy
+  319  flask run
+  320  df
+  321  pip show torch
+  322  pip list
+  323  pip install torch
+  324  pip -v
+  325  grep MemTotal /proc/meminfo
+  326  flask run
+  327  vim intents.py
+  328  flask run
+  329  vim intents.py
+  330  flask run
+  331  pip install spacy
+  332  ls
+  333  flask run
+  334  exit
+  335  npm -v
+  336  cd ./.ssh
+  337  ls
+  338  cd Zuum-AI-NLP
+  339  cd frontend
+  340  npm -v
+  341  npm update -g
+  342  sudo npm update -g
+  343  npm -v
+  344  npm i
+  345  npm run dev
+  346  npm install framer-motion
+  347  npm run dev
+  348  npm run build
+  349  sudo mv index.html index.html.backup
+  350  sudo cp /home/ubuntu/<your_repo_name>/dist/* . -r
+  351  sudo mv index.html.backup index.html
+  352  sudo apt update
+  353  sudo apt install apache2
+  354  sudo cp -r dist/* /var/www/html/
+  355  cd ../backend
+  356  ls
+  357  source ./zuum_env/bin/activate
+  358  $ pip install gunicorn
+  359  pip
+  360  pip install gunicorn
+  361  vim app.py
+  362  gunicorn -w 4 :app
+  363  gunicorn -w 4 app:create_app()
+  364  gunicorn -w 4 'app:create_app()'
+  365  gunicorn -w 4 ':app'
+  366  gunicorn --bind 0.0.0.0:8000 app:app
+  367  cd ..
+  368  ls frontend
+  369  ls backend
+  370  gunicorn app:app
+  371  vim app.py
+  372  cd backend
+  373  gunicorn app:app
+  374  exit
+  375  history
+  376  history|grep service
+  377  ls -l
+  378  history|grep -i service
+  379  ls -l
+  380  hitory> command1.txt
+  381  history
+  382  history  > command1.txt
