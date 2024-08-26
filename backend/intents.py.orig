@@ -1,0 +1,67 @@
+from flask import Flask
+from flask import request
+from backend.zuumapi import get_shipment_data
+#from .zuumapi import get_shipment_data
+from zuumapi import get_shipment_data
+from externalapi import get_weather, get_travel_time
+from fuelsurcharge import EIAFuelSurcharge
+import json 
+import os
+from dotenv import load_dotenv, find_dotenv
+from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
+#import torch
+#torch.set_num_threads(1)
+load_dotenv(find_dotenv())
+
+    
+def intent_recognizer(user_input):
+    tokenizer = AutoTokenizer.from_pretrained("./intents_model")
+    model = AutoModelForSequenceClassification.from_pretrained("./intents_model")
+    inputs = tokenizer(user_input, return_tensors="pt")
+    with torch.no_grad():
+        logits = model(**inputs).logits
+        predicted_class_id = logits.argmax().item()
+    return predicted_class_id
+
+def get_eta(query):
+    shipment_json = json.loads(get_shipment_data(query)) # get shipment data, we will need lat long for this intent
+    start_longitude = shipment_json['data']['pickUps'][0]['location']['geoLocation']['long']
+    start_latitude = shipment_json['data']['pickUps'][0]['location']['geoLocation']['lat']
+    end_longitude = shipment_json['data']['dropOffs'][0]['location']['geoLocation']['long']
+    end_latitude = shipment_json['data']['dropOffs'][0]['location']['geoLocation']['lat']
+    print(start_longitude, start_latitude, '-\n-', end_longitude, end_latitude)
+    try:
+        # travel_time = get_travel_time((float(start_longitude), float(start_latitude)), (float(end_longitude), float(end_latitude)))
+        travel_time = get_travel_time((float(start_latitude), float(start_longitude)), (float(end_latitude), float(end_longitude)))
+    except KeyError:
+        startSt = str(round(start_longitude, 2)) + ', ' + str(round(start_latitude, 2))
+        endSt = str(round(end_longitude, 2)) + ', ' + str(round(end_latitude, 2))
+        return f'Cannot find the travel time of this shipment with start location {startSt} and end location {endSt}'
+    except:
+        return f'API currently down, please try again later.'
+    print(travel_time)
+    return f'Your shipment should arrive in {round(travel_time, 1)} hours'
+    
+def get_status(query):
+    shipment_json = json.loads(get_shipment_data(query)) # get shipment data, we will need lat long for this intent
+    return f"The status of this shipment is {shipment_json['data']['status'].lower()}"
+
+
+def get_date(shipment_id):
+    shipment_json = json.loads(get_shipment_data(shipment_id)) # get shipment data, we will need lat long for this intent
+    try:
+        return f"The start date of this shipment is {shipment_json['data']['startDate'].lower()} and the end date is  {shipment_json['data']['endDate'].lower()}"
+    except KeyError:
+        return 'Could not find the start or end date of this shipment.'
+    
+def get_location(query):
+    shipment_json = json.loads(get_shipment_data(query))
+    lat, lon = shipment_json['data']['job']['driver']['geoLocation']['lat'], shipment_json['data']['job']['driver']['geoLocation']['long']
+    print(shipment_json['data']['job']['driver']['geoLocation'])
+    return get_shipment_location(lat, lon)
+def get_price(shipment_id):
+    eiaFuelSurcharge = EIAFuelSurcharge()
+    return eiaFuelSurcharge.get_matrix_data()
+
+if __name__ == '__main__':
+    print(intent_recognizer("what is the status of shipment 1234?"))

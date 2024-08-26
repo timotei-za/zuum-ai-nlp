@@ -1,0 +1,62 @@
+./backend/intents.py.orig:from dotenv import load_dotenv, find_dotenv
+./backend/intents.py.orig:load_dotenv(find_dotenv())
+./backend/fuelsurcharge.py:from dotenv import load_dotenv
+./backend/fuelsurcharge.py:        load_dotenv()
+Binary file ./backend/__pycache__/zuumapi.cpython-38.pyc matches
+Binary file ./backend/__pycache__/externalapi.cpython-38.pyc matches
+Binary file ./backend/__pycache__/intents.cpython-38.pyc matches
+Binary file ./backend/__pycache__/fuelsurcharge.cpython-38.pyc matches
+./backend/externalapi.py:from dotenv import load_dotenv, find_dotenv
+./backend/externalapi.py:from dotenv import load_dotenv, find_dotenv
+./backend/externalapi.py:load_dotenv(find_dotenv())
+./backend/intents.py:from dotenv import load_dotenv, find_dotenv
+./backend/intents.py:load_dotenv(find_dotenv())
+./backend/zuumapi.py:from dotenv import load_dotenv, find_dotenv
+./backend/zuumapi.py:load_dotenv(find_dotenv())
+Binary file ./backend/zuum_env/lib/python3.8/site-packages/dotenv/__pycache__/ipython.cpython-38.pyc matches
+Binary file ./backend/zuum_env/lib/python3.8/site-packages/dotenv/__pycache__/__init__.cpython-38.pyc matches
+Binary file ./backend/zuum_env/lib/python3.8/site-packages/dotenv/__pycache__/main.cpython-38.pyc matches
+./backend/zuum_env/lib/python3.8/site-packages/dotenv/ipython.py:from .main import find_dotenv, load_dotenv
+./backend/zuum_env/lib/python3.8/site-packages/dotenv/ipython.py:        load_dotenv(dotenv_path, verbose=args.verbose, override=args.override)
+./backend/zuum_env/lib/python3.8/site-packages/dotenv/main.py:def load_dotenv(
+./backend/zuum_env/lib/python3.8/site-packages/dotenv/__init__.py:from .main import (dotenv_values, find_dotenv, get_key, load_dotenv, set_key,
+./backend/zuum_env/lib/python3.8/site-packages/dotenv/__init__.py:           'load_dotenv',
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:from dotenv import load_dotenv
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:load_dotenv()  # take environment variables from .env.
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:By default, `load_dotenv` doesn't override existing environment variables.
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:The function `dotenv_values` works more or less the same way as `load_dotenv`, except it
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:`load_dotenv` and `dotenv_values` accept [streams][python_streams] via their `stream`
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:from dotenv import load_dotenv
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:load_dotenv(stream=config)
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:`{"FOO": None}`. `load_dotenv`, on the other hand, simply ignores such variables.
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:With `load_dotenv(override=True)` or `dotenv_values()`, the value of a variable is the
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:With `load_dotenv(override=False)`, the value of a variable is the first of the values
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:* Allow modules using load_dotenv to be reloaded when launched in a separate thread ([#497] by [@freddyaboulton])
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:* `load_dotenv` function now returns `False`. (#388 by [@larsks])
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:- The `stream` argument of `load_dotenv` and `dotenv_values` can now be a text stream
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:- The default value of the `encoding` parameter for `load_dotenv` and `dotenv_values` is
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:- Add `interpolate` argument to `load_dotenv` and `dotenv_values` to disable interpolation
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:- `load_dotenv` and `dotenv_values` now accept an `encoding` parameter, defaults to `None`
+./backend/zuum_env/lib/python3.8/site-packages/python_dotenv-1.0.1.dist-info/METADATA:-   Allow `load_dotenv` and `dotenv_values` to work with `StringIO())` ([@alanjds])([@theskumar])([#78])
+Binary file ./backend/zuum_env/lib/python3.8/site-packages/flask/__pycache__/cli.cpython-38.pyc matches
+Binary file ./backend/zuum_env/lib/python3.8/site-packages/flask/__pycache__/helpers.cpython-38.pyc matches
+Binary file ./backend/zuum_env/lib/python3.8/site-packages/flask/__pycache__/app.cpython-38.pyc matches
+./backend/zuum_env/lib/python3.8/site-packages/flask/helpers.py:def get_load_dotenv(default: bool = True) -> bool:
+./backend/zuum_env/lib/python3.8/site-packages/flask/app.py:from .helpers import get_load_dotenv
+./backend/zuum_env/lib/python3.8/site-packages/flask/app.py:        load_dotenv: bool = True,
+./backend/zuum_env/lib/python3.8/site-packages/flask/app.py:        :param load_dotenv: Load the nearest :file:`.env` and :file:`.flaskenv`
+./backend/zuum_env/lib/python3.8/site-packages/flask/app.py:        if get_load_dotenv(load_dotenv):
+./backend/zuum_env/lib/python3.8/site-packages/flask/app.py:            cli.load_dotenv()
+./backend/zuum_env/lib/python3.8/site-packages/flask/cli.py:from .helpers import get_load_dotenv
+./backend/zuum_env/lib/python3.8/site-packages/flask/cli.py:    load_dotenv(value)
+./backend/zuum_env/lib/python3.8/site-packages/flask/cli.py:    :param load_dotenv: Load the nearest :file:`.env` and :file:`.flaskenv`
+./backend/zuum_env/lib/python3.8/site-packages/flask/cli.py:        load_dotenv: bool = True,
+./backend/zuum_env/lib/python3.8/site-packages/flask/cli.py:        self.load_dotenv = load_dotenv
+./backend/zuum_env/lib/python3.8/site-packages/flask/cli.py:        if get_load_dotenv(self.load_dotenv):
+./backend/zuum_env/lib/python3.8/site-packages/flask/cli.py:            load_dotenv()
+./backend/zuum_env/lib/python3.8/site-packages/flask/cli.py:def load_dotenv(path: str | os.PathLike[str] | None = None) -> bool:
+./backend/zuum_env/lib/python3.8/site-packages/flask/cli.py:            return dotenv.load_dotenv(path, encoding="utf-8")
+./backend/zuum_env/lib/python3.8/site-packages/flask/cli.py:        dotenv.load_dotenv(path, encoding="utf-8")
+./backend/db.py:from dotenv import load_dotenv
+./backend/db.py:load_dotenv()
+./backend/db.py:      load_dotenv()

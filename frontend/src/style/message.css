@@ -1,0 +1,51 @@
+
+#message-box {
+    margin: .5rem;
+}
+
+#myfavoritediv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+p {
+    border-color: white;
+    padding: .5rem;
+    border-radius: 10px;
+    background-color: rgb(30, 11, 72);
+    color: white;
+}
+
+#zuumicon {
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+#table-container {
+    margin: 1rem;
+}
+
+#table-container td {
+    min-width:150px;
+    text-align: center;
+    padding: 10px;
+}
+
+#table-container th  {
+    background-color: #251f7e;
+    color: white;
+}
+#table-container tr:nth-child(odd) {
+    background-color: #f2f2f2c6;
+}
+
+#table-container tr:nth-child(even) {
+    background-color: #251f7e;
+    color: white;
+}

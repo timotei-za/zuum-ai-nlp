@@ -1,0 +1,18 @@
+import spacy
+
+def entity_recognizer(user_input):
+    nlp = spacy.load("Custom_NER/trained_models/output_status(best-0.7)/model-best")
+    text = user_input
+    print(text)
+
+    doc = nlp(text)
+
+    for ent in doc.ents:
+        # Print the recognized text and its corresponding label
+        print(ent.text, "  ->>>>  ", ent.label_)
+        if ent.label_ == "SHIPMENT ID":
+            try:
+                id = int(ent.text) 
+            except: 
+                continue
+    return id
