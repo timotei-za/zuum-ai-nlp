@@ -4,3 +4,4 @@ backend/intents_model
 backend/model-best
 backend/.env.dev
 backend/.env
+backend/response.json
