@@ -5,3 +5,4 @@ backend/model-best
 backend/.env.dev
 backend/.env
 backend/response.json
+response.json
