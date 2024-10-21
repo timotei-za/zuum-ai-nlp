@@ -14,6 +14,9 @@ def get_shipment_data(shipment_id, save=True):
     # json_data = json.dumps(endpoint, indent=4)
 
     shipment_statuses = requests.get(endpoint, headers=header_data)
+
+    print(f'\n Response -> {shipment_statuses}')
+
     json_data = json.dumps(shipment_statuses.json(), indent=4)
     if save:
         with open("response.json", "w") as file:
